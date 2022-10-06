@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.trends-container {
+  height: auto;
+  /* border: 1px solid blue; */
+  width: 85%;
+  background-color: #192734;
+  /* position: absolute; */
+  margin: auto;
+  margin-top: 3vh;
+  border-radius: 1rem;
+}
+
+.trends-container .trends-header {
+  height: 3.5rem;
+  border-bottom: 1px solid #38444d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trends-container .trends-header .trends-for-you {
+  height: 3.5rem;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* align-items: center; */
+  /* border: 1px solid #38444d; */
+
+  color: #fff;
+  font-size: 1.1rem;
+}
+.trends-container .trends-header .settings-container {
+  /* border: 1px solid #38444d; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 3rem;
+  width: 3rem;
+}
+.trends-container .trends-header .settings-container div {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  cursor: pointer;
+  /* border: 1px solid #38444d; */
+  transition: 0.5s;
+}
+.trends-container .trends-header .settings-container div:hover {
+  background: rgb(63, 63, 87);
+  color: #1da1f2;
+}
+.iconSe {
+}
+
+.show-more span {
+  color: #1c8fd7;
+  font-size: 0.9rem;
+}
+.show-more:hover {
+  background-color: #1c2b38;
+}

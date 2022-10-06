@@ -1,0 +1,132 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.displayTweet-container {
+  height: 30rem;
+  width: 100%;
+  border-top: 1px solid #38444d;
+  /* border: 1px solid red; */
+  display: flex;
+}
+.displayTweet-container .heading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* border: 1px solid rgb(148, 133, 133); */
+  width: 100%;
+}
+.displayTweet-container .heading-container .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 4rem;
+  margin-top: -4.1vh;
+
+  /* border: 1px solid rgb(85, 76, 76); */
+  /* margin-bottom: 2vh; */
+}
+.displayTweet-container .heading-container .heading .separator {
+  width: 1%;
+}
+
+.displayTweet-container .pic-cont {
+  height: 100%;
+  /* border: 1px solid rgb(85, 76, 76); */
+  width: 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.displayTweet-container .pic-cont .pic {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: blue;
+}
+.displayTweet-container .attachment {
+  height: 20rem;
+  width: 100%;
+  border: 1px solid rebeccapurple;
+  border-radius: 2rem;
+  margin-left: auto;
+  outline: none;
+}
+.displayTweet-container .reactions {
+  width: 100%;
+  height: 2rem;
+  /* border: 1px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.displayTweet-container .reactions .div-cont1,
+.div-cont2,
+.div-cont3,
+.div-cont4 {
+  display: flex;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+.displayTweet-container .reactions .div-cont span {
+  /* margin-left: 2%; */
+}
+.displayTweet-container .reactions .div1,
+.div2,
+.div3,
+.div4 {
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+/* .displayTweet-container .reactions .div2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.4s;
+} */
+.displayTweet-container .reactions .div1:hover {
+  background: rgb(63, 63, 87);
+}
+.displayTweet-container .reactions .div-cont1 .svg:hover {
+  fill: rgb(136, 153, 166);
+}
+/* div2 hover effects */
+/* .displayTweet-container .reactions .div-cont1:hover {
+  background: rgb(63, 63, 87);
+  fill: rgb(23, 191, 99);
+} */
+.displayTweet-container .reactions .div2:hover {
+  background: rgb(63, 63, 87);
+}
+
+.displayTweet-container .reactions .div-cont2 .svg:hover {
+  fill: rgb(23, 191, 99);
+  color: rgb(27, 43, 34);
+  fill: rgb(23, 191, 99);
+}
+
+.displayTweet-container .reactions .div3:hover {
+  background: rgb(63, 63, 87);
+}
+
+.displayTweet-container .reactions .div4:hover {
+  background: rgb(63, 63, 87);
+}
+.displayTweet-container .reactions .svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: #4e5d68;
+}
+.displayTweet-container .reactions .div-cont .div3:hover {
+  fill: #b48484;
+}
+/* end of Reaction effects */
